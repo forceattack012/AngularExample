@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'AngularExample';
+  title = 'AngularExample2';
+  ngOnInit(): void {
+     this.title = 'Hello';
+    
+  }
 }
